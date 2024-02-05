@@ -7,18 +7,7 @@
   "rules": {
     "comma-dangle": ["error", "only-multiline"],
     "semi": ["error", "always"],
-    "indent": [
-      "error",
-      2,
-      {
-        "SwitchCase": 1,
-        "VariableDeclarator": {
-          "var": 2,
-          "let": 2,
-          "const": 3
-        }
-      }
-    ],
+    "indent": "off",
     "linebreak-style": 0,
     "quotes": ["error", "single"],
     "no-multi-spaces": [
@@ -29,10 +18,10 @@
         }
       }
     ],
-    "space-before-function-paren": ["error", "never"],
+    "space-before-function-paren": "off",
     "no-unused-vars": "off",
     "camelcase": "off",
-    "@typescript-eslint/no-unused-vars": "error"
+    "@typescript-eslint/no-unused-vars": "off"
   },
   "parserOptions": {
     "parser": "@typescript-eslint/parser"

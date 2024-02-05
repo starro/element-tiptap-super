@@ -9,6 +9,7 @@ const Color = TiptapColor.extend({
     return {
       ...this.parent?.(),
       colors: COLOR_SET,
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
       button({ editor, t }: { editor: Editor; t: (...args: any[]) => string }) {
         return {
           component: ColorPopover,

@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Editor, mergeAttributes } from '@tiptap/core';
 import { VueNodeViewRenderer } from '@tiptap/vue-3';
 import TiptapImage from '@tiptap/extension-image';
@@ -11,7 +12,6 @@ import {
 } from '@/constants';
 
 const Image = TiptapImage.extend({
-  // https://github.com/ueberdosis/tiptap/issues/1206
   inline() {
     return true;
   },

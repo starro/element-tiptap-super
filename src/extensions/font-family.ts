@@ -29,6 +29,7 @@ const FontFamily = Extension.create<FontFamilyOptions>({
     return {
       types: ['textStyle'],
       fontFamilyMap: DEFAULT_FONT_FAMILY_MAP,
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
       button({ editor, t }: { editor: Editor; t: (...args: any[]) => string }) {
         return {
           component: FontFamilyDropdown,

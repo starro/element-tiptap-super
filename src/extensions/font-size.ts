@@ -5,7 +5,7 @@ import {
   DEFAULT_FONT_SIZE,
 } from '@/utils/font-size';
 import FontSizeDropdown from '@/components/MenuCommands/FontSizeDropdown.vue';
-import TextStyle from '@tiptap/extension-text-style';
+// import TextStyle from '@tiptap/extension-text-style';
 
 export type FontSizeOptions = {
   types: string[];

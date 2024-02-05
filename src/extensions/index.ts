@@ -12,6 +12,7 @@ export { default as Image } from './image';
 export { default as TaskList } from './task-list';
 export { default as Table } from './table';
 export { default as Iframe } from './iframe';
+export { default as SchemaTable } from './table';
 
 // marks
 export { default as Bold } from './bold';
@@ -34,7 +35,7 @@ export { default as Indent } from './indent';
 export { default as LineHeight } from './line-height';
 export { default as FormatClear } from './format-clear';
 export { default as Fullscreen } from './fullscreen';
-export { default as TestAlert } from './test-alret';
 export { default as Print } from './print';
 export { default as SelectAll } from './select-all';
 export { default as CodeView } from './code-view';
+export { default as EntitySchema } from './entity-schema';

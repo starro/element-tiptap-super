@@ -51,7 +51,7 @@ import {
   SelectAll,
   History,
   CodeView,
-  TestAlert,
+  EntitySchema,
 } from 'element-tiptap';
 
 import codemirror from 'codemirror';
@@ -93,6 +93,18 @@ const paragraphExtensions = [
   History,
 ];
 
+const CustSchema = EntitySchema.extend({
+  addCommands() {
+    return {
+      callSchemaPop:
+        (options) =>
+        ({ commands }) => {
+          console.log('commands: ', commands);
+        },
+    };
+  },
+});
+
 const richAndToolsExtensions = [
   Document,
   Text,
@@ -113,6 +125,6 @@ const richAndToolsExtensions = [
     },
   }),
   History,
-  TestAlert,
+  CustSchema,
 ];
 </script>

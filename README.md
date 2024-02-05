@@ -20,7 +20,7 @@ that's easy to use, friendly to developers, fully extensible and clean in design
 
 ## 📔 Languages
 
-English | [简体中文](./README_ZH.md)
+English
 
 ## 🎄 Demo
 

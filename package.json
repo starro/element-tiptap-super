@@ -1,6 +1,6 @@
 {
   "name": "element-tiptap-super",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "🌸A modern WYSIWYG rich-text editor using tiptap and Element UI for Vue.js",
   "author": "super",
   "scripts": {
@@ -129,5 +129,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/starro/element-tiptap-super.git"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
